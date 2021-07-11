@@ -22,9 +22,10 @@ a{
 }
 
 /* ========== CSS Grid Section ========== */
-.global-grid{
+.background-grid{
     background-color: #37667E;
     display: grid;
+    z-index: 500;
 
     height: 100vh;
 
@@ -32,7 +33,7 @@ a{
     
     grid-gap: .2rem;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: .2fr 1fr;
+    grid-template-rows: .2fr 1fr .2fr;
     grid-template-areas: 
     "header header"
     "bodyText showcase"
@@ -41,8 +42,12 @@ a{
 
 .header{
     grid-area: header;
+    z-index: 400;
     background-color: #7B92AA;
     margin: .5rem;
+    transform: rotate(5deg) translateX(-10rem) translateY(-10rem);
+    height: 250%;
+    width: 125%;
 }
 
 .bodyText{
@@ -54,6 +59,10 @@ a{
 .showcase{
     grid-area: showcase;
     background-color: #B8E0F6;
+    transform: rotate(5deg) translateX(-10rem) translateY(-10rem);
+    height: 250%;
+    width: 125%;
+
     margin: .5rem;
 }
 
@@ -63,13 +72,27 @@ a{
     margin: .2rem;
 }
 
-
-
-
-
 /* ========== ======== ==========*/
 
 
+
+.title{
+    z-index: 600;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    font-size: 2rem;
+}
+
+.subTitle{
+    z-index: 600;
+    position: absolute;
+    top: 2rem;
+    left: 0;
+
+    font-size: 2rem;
+}
 
 
 
@@ -82,4 +105,10 @@ a{
     color: #DEC4D6;
     color: #7B92AA;
 }
+
+/*
+Palette from here:
+https://offeo.com/learn/20-pastel-spring-summer-color-palettes/
+*/
+
 /* ========== ======== ========== */
