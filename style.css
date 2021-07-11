@@ -1,0 +1,85 @@
+*
+*::before,
+*::after{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/* ===== GLOBAL STYLING ===== */
+html{
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* ========== CSS Grid Section ========== */
+.global-grid{
+    background-color: #37667E;
+    display: grid;
+
+    height: 100vh;
+
+    padding: 1rem;
+    
+    grid-gap: .2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .2fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "bodyText showcase"
+    "footer footer";
+}
+
+.header{
+    grid-area: header;
+    background-color: #7B92AA;
+    margin: .5rem;
+}
+
+.bodyText{
+    grid-area: bodyText;
+    background-color: #A4CCE3;
+    margin: .5rem;
+}
+
+.showcase{
+    grid-area: showcase;
+    background-color: #B8E0F6;
+    margin: .5rem;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: #DEC4D6;
+    margin: .2rem;
+}
+
+
+
+
+
+/* ========== ======== ==========*/
+
+
+
+
+
+
+/* ========== Pallette ========== */
+.myColors{
+    color: #B8E0F6;
+    color: #A4CCE3;
+    color: #37667E;
+    color: #DEC4D6;
+    color: #7B92AA;
+}
+/* ========== ======== ========== */
