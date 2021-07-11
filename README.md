@@ -72,6 +72,7 @@ No prerequisites.
 
 7.11.21
 - Finished the SVG icon for this repository's readme.
+- [001-0.0.1]:: Basic Layout >> Added a simple pastel color palette to make alignment a little easier on the eyes. Going with a simple layout approach for now.
 
 ### Main Branch:
 - Where the core project is located.
