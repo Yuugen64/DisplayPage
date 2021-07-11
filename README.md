@@ -74,6 +74,7 @@ No prerequisites.
 - Finished the SVG icon for this repository's readme.
 - [001-0.0.1]:: Basic Layout >> Added a simple pastel color palette to make alignment a little easier on the eyes. Going with a simple layout approach for now.
 - [002] Icon + Layout >> Updated the readme icon and attempted a more complicated layout.
+- [003-0.0.1]:: Text Positioning >> Worked on typography and tried to set up the default layout.
 
 ### Main Branch:
 - Where the core project is located.
