@@ -15,10 +15,18 @@ html{
 body{
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a{
   text-decoration: none;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+
+    margin-bottom: 2rem;
 }
 
 /* ========== CSS Grid Section ========== */
@@ -26,6 +34,8 @@ a{
     background-color: #37667E;
     display: grid;
     z-index: 500;
+
+    overflow: hidden;
 
     height: 100vh;
 
@@ -76,24 +86,106 @@ a{
 
 
 
+/* ========== Title Area ==========*/
 .title{
     z-index: 600;
     position: absolute;
     top: 0;
     left: 0;
 
-    font-size: 2rem;
+    font-family: Arial Black;
+
+    font-size: 10rem;
+
+    margin-left: 2rem;
 }
 
 .subTitle{
     z-index: 600;
     position: absolute;
-    top: 2rem;
-    left: 0;
+    top: 12rem;
+    left: 25%;
 
-    font-size: 2rem;
+    font-size: 3rem;
+
+    margin-left: 6rem;
+}
+/* ========= ======== ========== */
+
+
+
+/* ========== Text Area ========== */
+.textTitle{
+    z-index: 700;
+    position: absolute;
+    top: 22%;
+    left: 2%;
+
+    font-size: 3rem;
+
+    font-weight: bold;
+
+    margin-left: 1rem;
 }
 
+.textSubTitle{
+    z-index: 700;
+    position: absolute;
+    top: 25%;
+    left: 4%;
+
+    font-size: 2rem;
+
+    margin-left: 1rem;
+}
+
+.textContainer{
+    position: absolute;
+    z-index: 700;
+
+    font-size: 1.5rem;
+
+    top: 30%;
+    left: 4%;
+
+    height: auto;
+    width: 40%;
+}
+
+.elementContainer{
+    position: absolute;
+    z-index: 700;
+
+    font-size: 1.5rem;
+
+    top: 35%;
+    right: 6%;
+
+    height: auto;
+    width: 40%;
+}
+/* ========== ======== ========== */
+
+
+
+/* ========== Footer Text ========== */
+.footerText{
+    position: absolute;
+    z-index: 700;
+
+    font-size: 1.5rem;
+
+    bottom: 3%;
+    left: 2%;
+
+    height: auto;
+    width: 40%;
+}
+
+.footerText p{
+    margin-bottom: .5rem;
+}
+/* ========== ======== ========== */
 
 
 
